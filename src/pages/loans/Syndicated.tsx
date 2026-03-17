@@ -15,6 +15,7 @@ import {
   Award,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -66,6 +67,7 @@ const Syndicated = () => {
   ];
   return (
     <div className="min-h-screen">
+      <SEOHead title="Syndicated Loans in UAE" description="Access large-scale syndicated loan facilities in the UAE. Multi-bank financing for major projects and expansions." path="/loans/syndicated" />
       <Header />
 
       {/* Hero Section */}

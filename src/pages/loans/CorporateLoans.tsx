@@ -15,6 +15,7 @@ import {
   BriefcaseBusiness,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -67,6 +68,7 @@ const CorporateLoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Corporate Loans in UAE" description="Large-scale corporate financing solutions in the UAE. Structured lending for established businesses and corporations." path="/loans/corporate-loans" />
       <Header />
 
       {/* Hero Section */}

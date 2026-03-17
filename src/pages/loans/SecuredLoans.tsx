@@ -15,6 +15,7 @@ import {
   HandCoins,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -67,6 +68,7 @@ const SecuredLoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Secured Loans in UAE" description="Access secured business loans in the UAE with competitive rates. Property-backed and asset-backed financing options." path="/loans/secured-loans" />
       <Header />
 
       {/* Hero Section */}

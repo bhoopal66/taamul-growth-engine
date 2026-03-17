@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -102,6 +103,7 @@ const BusinessLoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Business Loans in UAE" description="Get competitive business loan rates in the UAE. Compare offers from top banks with Taamul's expert advisory." path="/loans/business-loans" />
       <Header />
 
       {/* Hero Section */}

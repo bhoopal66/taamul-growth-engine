@@ -15,6 +15,7 @@ import {
   HelpCircle,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { Button } from "@/components/ui/button";
@@ -117,6 +118,7 @@ const Services = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Business Financing Services" description="Explore Taamul's full range of business financing services in the UAE — loans, trade finance, debt advisory, and more." path="/services" />
       <Header />
       
       {/* Hero Section */}

@@ -34,6 +34,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { useToast } from "@/hooks/use-toast";
@@ -141,6 +142,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Contact Us" description="Get in touch with Taamul Credit Review Services for business financing solutions in the UAE. Free consultation available." path="/contact" />
       <Header />
 
       {/* Hero Section */}

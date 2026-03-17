@@ -19,6 +19,7 @@ import {
   PiggyBank,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -79,6 +80,7 @@ const MezzanineFinancing = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Mezzanine Financing in UAE" description="Flexible mezzanine financing solutions bridging debt and equity for UAE businesses seeking growth capital." path="/services/mezzanine-financing" />
       <Header />
 
       {/* Hero Section */}

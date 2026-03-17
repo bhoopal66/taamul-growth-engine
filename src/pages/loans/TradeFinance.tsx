@@ -15,6 +15,7 @@ import {
   Network,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -93,6 +94,7 @@ const TradeFinance = () => {
   ];
   return (
     <div className="min-h-screen">
+      <SEOHead title="Trade Finance in UAE" description="International trade financing solutions — letters of credit, bank guarantees, and import/export financing in the UAE." path="/loans/trade-finance" />
       <Header />
 
       {/* Hero Section */}

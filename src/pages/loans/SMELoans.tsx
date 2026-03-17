@@ -15,6 +15,7 @@ import {
   Zap,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import TaamulAdvantageSection from "@/components/loans/TaamulAdvantageSection";
@@ -67,6 +68,7 @@ const SMELoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="SME Loans in UAE" description="Tailored SME loan solutions for small and medium enterprises in the UAE. Quick approvals, flexible repayment terms." path="/loans/sme-loans" />
       <Header />
 
       {/* Hero Section */}

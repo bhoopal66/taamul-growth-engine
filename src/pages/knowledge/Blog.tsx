@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { FileText } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -49,6 +50,7 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Business Finance Blog" description="Expert insights on business financing, UAE banking, loan strategies, and financial advisory from Taamul." path="/knowledge/blog" />
       <Header />
       <main>
         {/* Hero */}

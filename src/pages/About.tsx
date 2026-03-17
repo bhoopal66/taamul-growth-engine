@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -105,6 +106,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="About Taamul Credit Review Services" description="Learn about Taamul — UAE's trusted business finance advisory helping companies secure the best loan terms from leading banks." path="/about" />
       <Header />
       
       {/* Hero Section */}

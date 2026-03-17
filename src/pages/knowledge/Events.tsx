@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -36,6 +37,7 @@ const Events = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Finance Events & Workshops" description="Attend Taamul's business finance events, workshops, and networking sessions across the UAE." path="/knowledge/events" />
       <Header />
       <main>
         {/* Hero */}

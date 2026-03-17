@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { 
@@ -87,6 +88,7 @@ const HowItWorks = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="How It Works" description="Learn how Taamul helps UAE businesses get the best financing — from consultation to bank matching and approval." path="/how-it-works" />
       <Header />
       
       {/* Hero Section */}

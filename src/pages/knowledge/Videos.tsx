@@ -1,5 +1,6 @@
 import { Play } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -11,6 +12,7 @@ const Videos = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Finance Videos" description="Watch informative videos about business financing, loan options, and financial strategies in the UAE." path="/knowledge/videos" />
       <Header />
       <main>
         <section className="relative py-24 lg:py-32 bg-gradient-to-br from-primary via-primary/90 to-primary/80">
