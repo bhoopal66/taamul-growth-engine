@@ -11,27 +11,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://taamulcredit.com/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://taamulcredit.com/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://taamulcredit.com/how-it-works</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://taamulcredit.com/business-accounts</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <!-- Loan Pages -->
-  <url>
     <loc>https://taamulcredit.com/loans/business-loans</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -80,36 +59,154 @@
   <url>
     <loc>https://taamulcredit.com/services/mezzanine-financing</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Core Pages -->
+  <url>
+    <loc>https://taamulcredit.com/business-accounts</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/contact</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Knowledge Center -->
   <url>
-    <loc>https://taamulcredit.com/knowledge/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://taamulcredit.com/knowledge/case-studies</loc>
+    <loc>https://taamulcredit.com/how-it-works</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://taamulcredit.com/knowledge/events</loc>
+    <loc>https://taamulcredit.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://taamulcredit.com/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Knowledge Hub -->
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://taamulcredit.com/knowledge/research-papers</loc>
+    <loc>https://taamulcredit.com/knowledge-center/case-studies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/open-business-bank-account-uae</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://taamulcredit.com/knowledge/webinars</loc>
+    <loc>https://taamulcredit.com/knowledge-center/best-business-loans-uae</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://taamulcredit.com/knowledge/videos</loc>
+    <loc>https://taamulcredit.com/knowledge-center/quick-small-business-loans-safe-funding</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/quick-small-business-loans-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/urgent-short-term-loan-uae</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/start-up-loans-without-history</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/start-up-loans-rejected</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/start-up-business-loans-rates-terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/business-equipment-financing-halal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/business-equipment-financing-cafes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/machinery-finance-uae</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/invoice-discounting-companies-uae</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/understanding-eibor-business-loan-rates-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/top-5-financing-options-uae-startups-smes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/uae-economic-outlook-2025-key-trends</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/prepare-winning-loan-application-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/uae-central-bank-regulations-borrowers</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/equipment-financing-vs-leasing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/building-business-credit-uae-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://taamulcredit.com/knowledge-center/trade-finance-solutions-import-export</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
