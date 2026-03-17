@@ -14,6 +14,11 @@ import CTASection from "@/components/home/CTASection";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Taamul Credit Review Services | Business Financing Solutions in UAE"
+        description="UAE's trusted partner for business financing. Business loans, working capital, SME loans, corporate financing, trade finance and more."
+        path="/"
+      />
       <Header />
       <main>
         <HeroSection />
