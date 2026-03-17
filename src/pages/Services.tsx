@@ -15,6 +15,7 @@ import {
   HelpCircle,
 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { Button } from "@/components/ui/button";
