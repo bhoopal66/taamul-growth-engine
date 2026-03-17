@@ -37,6 +37,7 @@ const Events = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Finance Events & Workshops" description="Attend Taamul's business finance events, workshops, and networking sessions across the UAE." path="/knowledge/events" />
       <Header />
       <main>
         {/* Hero */}

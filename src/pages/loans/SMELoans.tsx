@@ -68,6 +68,7 @@ const SMELoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="SME Loans in UAE" description="Tailored SME loan solutions for small and medium enterprises in the UAE. Quick approvals, flexible repayment terms." path="/loans/sme-loans" />
       <Header />
 
       {/* Hero Section */}

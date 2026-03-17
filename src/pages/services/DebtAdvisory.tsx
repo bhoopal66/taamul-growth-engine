@@ -82,6 +82,7 @@ const DebtAdvisory = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Debt Advisory Services in UAE" description="Expert debt advisory and restructuring services for UAE businesses. Optimize your capital structure with Taamul." path="/services/debt-advisory" />
       <Header />
 
       {/* Hero Section */}

@@ -12,6 +12,7 @@ const ResearchPapers = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Research Papers" description="In-depth research and analysis on UAE business finance, banking trends, and economic insights." path="/knowledge/research-papers" />
       <Header />
       <main>
         <section className="relative py-24 lg:py-32 bg-gradient-to-br from-primary via-primary/90 to-primary/80">

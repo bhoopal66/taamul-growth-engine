@@ -67,6 +67,7 @@ const Syndicated = () => {
   ];
   return (
     <div className="min-h-screen">
+      <SEOHead title="Syndicated Loans in UAE" description="Access large-scale syndicated loan facilities in the UAE. Multi-bank financing for major projects and expansions." path="/loans/syndicated" />
       <Header />
 
       {/* Hero Section */}

@@ -107,6 +107,7 @@ const CaseStudies = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Case Studies" description="Real success stories of UAE businesses that secured financing with Taamul's expert advisory." path="/knowledge/case-studies" />
       <Header />
       <main>
         {/* Hero */}

@@ -68,6 +68,7 @@ const SecuredLoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Secured Loans in UAE" description="Access secured business loans in the UAE with competitive rates. Property-backed and asset-backed financing options." path="/loans/secured-loans" />
       <Header />
 
       {/* Hero Section */}

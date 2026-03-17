@@ -12,6 +12,7 @@ const Webinars = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Finance Webinars" description="Watch expert webinars on business financing, banking strategies, and UAE market insights." path="/knowledge/webinars" />
       <Header />
       <main>
         <section className="relative py-24 lg:py-32 bg-gradient-to-br from-primary via-primary/90 to-primary/80">

@@ -103,6 +103,7 @@ const BusinessLoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Business Loans in UAE" description="Get competitive business loan rates in the UAE. Compare offers from top banks with Taamul's expert advisory." path="/loans/business-loans" />
       <Header />
 
       {/* Hero Section */}

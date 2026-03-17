@@ -80,6 +80,7 @@ const MezzanineFinancing = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Mezzanine Financing in UAE" description="Flexible mezzanine financing solutions bridging debt and equity for UAE businesses seeking growth capital." path="/services/mezzanine-financing" />
       <Header />
 
       {/* Hero Section */}

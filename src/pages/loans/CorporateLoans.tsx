@@ -68,6 +68,7 @@ const CorporateLoans = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Corporate Loans in UAE" description="Large-scale corporate financing solutions in the UAE. Structured lending for established businesses and corporations." path="/loans/corporate-loans" />
       <Header />
 
       {/* Hero Section */}

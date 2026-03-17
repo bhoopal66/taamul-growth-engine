@@ -185,6 +185,7 @@ const BusinessAccounts = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Business Bank Accounts in UAE" description="Open a business bank account in the UAE with expert guidance from Taamul. We handle bank selection, documentation, and approval." path="/business-accounts" />
       <Header />
 
       {/* Hero Section */}

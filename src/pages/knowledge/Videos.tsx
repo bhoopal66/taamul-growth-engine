@@ -12,6 +12,7 @@ const Videos = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Finance Videos" description="Watch informative videos about business financing, loan options, and financial strategies in the UAE." path="/knowledge/videos" />
       <Header />
       <main>
         <section className="relative py-24 lg:py-32 bg-gradient-to-br from-primary via-primary/90 to-primary/80">

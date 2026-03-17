@@ -50,6 +50,7 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Business Finance Blog" description="Expert insights on business financing, UAE banking, loan strategies, and financial advisory from Taamul." path="/knowledge/blog" />
       <Header />
       <main>
         {/* Hero */}

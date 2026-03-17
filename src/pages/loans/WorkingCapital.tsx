@@ -67,6 +67,7 @@ const WorkingCapital = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Working Capital Finance UAE" description="Secure working capital financing for your UAE business. Flexible terms, competitive rates from leading banks." path="/loans/working-capital" />
       <Header />
 
       {/* Hero Section */}

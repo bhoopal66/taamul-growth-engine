@@ -94,6 +94,7 @@ const TradeFinance = () => {
   ];
   return (
     <div className="min-h-screen">
+      <SEOHead title="Trade Finance in UAE" description="International trade financing solutions — letters of credit, bank guarantees, and import/export financing in the UAE." path="/loans/trade-finance" />
       <Header />
 
       {/* Hero Section */}

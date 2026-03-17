@@ -68,6 +68,7 @@ const EquipmentFinancing = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title="Equipment Financing in UAE" description="Finance business equipment and machinery in the UAE. Flexible leasing and loan options for all industries." path="/loans/equipment-financing" />
       <Header />
 
       {/* Hero Section */}
