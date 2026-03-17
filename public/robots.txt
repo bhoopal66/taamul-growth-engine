@@ -1,8 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /supabase/
+
+# Crawl-delay for polite crawling
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Twitterbot
 Allow: /
@@ -10,5 +17,11 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
+User-agent: LinkedInBot
 Allow: /
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+Sitemap: https://taamul.ae/sitemap.xml
