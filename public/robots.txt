@@ -24,4 +24,4 @@ User-agent: Slurp
 Allow: /
 Crawl-delay: 1
 
-Sitemap: https://taamul.ae/sitemap.xml
+Sitemap: https://taamulcredit.com/sitemap.xml
