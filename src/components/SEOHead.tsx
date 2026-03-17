@@ -9,7 +9,7 @@ interface SEOHeadProps {
   noindex?: boolean;
 }
 
-const BASE_URL = "https://taamul.ae";
+const BASE_URL = "https://taamulcredit.com";
 const SITE_NAME = "Taamul Credit Review Services";
 const DEFAULT_IMAGE = `${BASE_URL}/og-image.png`;
 
