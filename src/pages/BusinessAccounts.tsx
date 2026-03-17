@@ -29,6 +29,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { AnimatedSection, AnimatedItem } from "@/components/ui/animated-section";

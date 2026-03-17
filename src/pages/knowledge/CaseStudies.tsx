@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Award, TrendingUp, Clock, Building2, ArrowRight, CheckCircle2 } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { AnimatedSection } from "@/components/ui/animated-section";
