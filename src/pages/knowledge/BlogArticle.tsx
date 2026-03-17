@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, ArrowRight, Clock, Calendar, Tag } from "lucide-react";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { useLanguage } from "@/contexts/LanguageContext";
