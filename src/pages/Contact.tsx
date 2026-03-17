@@ -34,6 +34,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import Header from "@/components/layout/Header";
+import SEOHead from "@/components/SEOHead";
 import Footer from "@/components/layout/Footer";
 import FloatingButtons from "@/components/layout/FloatingButtons";
 import { useToast } from "@/hooks/use-toast";
