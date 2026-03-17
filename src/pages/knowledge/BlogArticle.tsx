@@ -110,6 +110,7 @@ const BlogArticle = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead title={title} description={summary} path={`/knowledge/blog/${articleId}`} />
       <Header />
       <main>
         {/* Hero */}
