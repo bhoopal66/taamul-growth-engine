@@ -106,6 +106,7 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="About Taamul Credit Review Services" description="Learn about Taamul — UAE's trusted business finance advisory helping companies secure the best loan terms from leading banks." path="/about" />
       <Header />
       
       {/* Hero Section */}

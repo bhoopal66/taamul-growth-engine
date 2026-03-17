@@ -142,6 +142,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Contact Us" description="Get in touch with Taamul Credit Review Services for business financing solutions in the UAE. Free consultation available." path="/contact" />
       <Header />
 
       {/* Hero Section */}

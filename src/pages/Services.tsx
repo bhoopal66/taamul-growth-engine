@@ -118,6 +118,7 @@ const Services = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title="Business Financing Services" description="Explore Taamul's full range of business financing services in the UAE — loans, trade finance, debt advisory, and more." path="/services" />
       <Header />
       
       {/* Hero Section */}
